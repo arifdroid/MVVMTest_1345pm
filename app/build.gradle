@@ -35,7 +35,10 @@ dependencies {
 
     //lifecycle components
 
-    implementation "androidx.lifecycle:lifecycle-extensions:$lifecycle_version"
+    //implementation "androidx.lifecycle:lifecycle-extensions:$lifecycle_version"
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.0.0-rc01'
+//    implementation "android.arch.lifecycle:extensions:1.1.0"
+//    implementation "android.arch.lifecycle:viewmodel:1.1.0"
     annotationProcessor "androidx.lifecycle:lifecycle-compiler:$lifecycle_version"
 
     //room components
@@ -48,3 +51,4 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 }
+apply plugin: 'androidx.navigation.safeargs'
