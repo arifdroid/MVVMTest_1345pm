@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         //noteViewModel = ViewModelProviders.getClass(NoteViewModel.class);
 
         noteViewModel = ViewModelProvider.AndroidViewModelFactory.getInstance(MainActivity.this.getApplication()).getClass(NoteViewModel.class);
+        //just checking
 
         //android system will destroy this reference when this activity is finish
 
